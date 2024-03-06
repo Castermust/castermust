@@ -1,0 +1,10 @@
+Requires a 64-bit processor and operating system
+OS: Windows 10 64-Bit
+Processor: Intel Core i5-6600K/AMD Ryzen 5 1600
+Memory: 8 GB RAM
+Graphics: Nvidia GeForce GTX 1050Ti/AMD Radeon R9 380X
+DirectX: Version 12
+Network: Broadband Internet connection
+Storage: 100 GB available space
+Sound Card: DirectX compatible soundcard/Onboard chipset
+Additional Notes: *”FPS (frame rate/second): Stable over 60″ is guaranteed and selected under the graphic settings by default when the game is launched for the first time.*Frame rate may drop when other applications are running in the background.*Please note that minimum and recommended specifications are subjected to changes without notice.

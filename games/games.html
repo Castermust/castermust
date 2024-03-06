@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Castermust - Games</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav>
+        <ul>
+            <li><a href="../index.html">HOME</a></li>
+            <li><a href="games.html">GAMES</a></li>
+            <li><a href="../index.html#needs">NEEDS</a></li>
+        </ul>
+    </nav>
+
+    <!-- Popup per le immagini -->
+    <div id="imagePopup" class="image-popup">
+        <span class="close" onclick="closePopup()">&times;</span>
+        <div class="popup-content">
+            <img id="popupImage" src="" alt="">
+            <h3 id="popupTitle"></h3>
+            <p id="popupDescription"></p>
+        </div>
+    </div>
+
+    <!-- Sezione con immagini di giochi -->
+    <section id="game-images">
+        <h2 style="font-family: 'Cubos', sans-serif;">Esplora i Giochi</h2>
+        
+
+        <!-- Immagini dei giochi -->
+        <div class="game-grid">
+            <!-- Immagini statiche dei giochi -->
+            <a href="https://rb.gy/crss3r" onclick="openPopup('../image1.jpg', 'Red Dead Redemption 2', 'description1.txt')"><img src="../image1.jpg" alt="Red Dead Redemption 2" class="zoom-effect"></a>
+            <a href="https://rb.gy/zv376v" onclick="openPopup('../image2.jpg', 'Devil May Cry 5', 'description2.txt')"><img src="../image2.jpg" alt="Devil May Cry 5" class="zoom-effect"></a>
+            <a href="https://t.ly/wAMcJ" onclick="openPopup('../image3.jpg', 'Grand Theft Auto V', 'description3.txt')"><img src="../image3.jpg" alt="GTA V" class="zoom-effect"></a>
+            <a href="https://rb.gy/814l7p" onclick="openPopup('../image4.jpg', 'Tekken 8', 'description4.txt')"><img src="../image4.jpg" alt="TEKKEN 8" class="zoom-effect"></a>
+            <a href="https://t.ly/aZv4x" onclick="openPopup('../image5.jpg', 'The Walking Dead Destinies', 'description5.txt')"><img src="../image5.jpg" alt="Walking Dead Destinies" class="zoom-effect"></a>
+            <a href="https://t.ly/t0hyU" onclick="openPopup('../image6.jpg', 'Naruto X Boruto Ultimate Ninja Storm Connection', 'description6.txt')"><img src="../image6.jpg" alt="Ultimate Ninja storm Connection" class="zoom-effect"></a>
+            <a href="https://t.ly/zUE4n" onclick="openPopup('../image7.jpg', 'Lies Of P', 'description7.txt')"><img src="../image7.jpg" alt="Lies Of P" class="zoom-effect"></a>
+            <a href="https://t.ly/PhUCc" onclick="openPopup('../image8.jpg', 'Banishers Ghost of new Eden', 'description8.txt')"><img src="../image8.jpg" alt="Banishers - Ghost of New Eden" class="zoom-effect"></a>
+            <!-- Aggiungi altre immagini dei giochi -->
+         </div>
+    </section>
+
+    <!-- Sezione per suggerire un gioco da aggiungere -->
+    <section id="suggest-game">
+        <h2 style="font-family: 'Cubos', sans-serif;">Consigliaci un Gioco da Aggiungere!</h2>
+        <!-- Form statico per raccogliere il nome del gioco suggerito -->
+        <form method="post" action="/app/esperimento/input.php">
+            <label for="game-name">Nome del Gioco:</label>
+            <input type="text" id= "game-name" name= "game-name" placeholder= "Inserisci il nome del gioco" required>
+
+            <button type= "submit">Invia Suggerimento</button>
+        </form>
+    </section>
+
+     <!-- Footer -->
+     <footer>
+         <p>&copy; 2024 Castermust. Tutti i diritti riservati.</p>
+     </footer>
+
+     <!-- Script per la navigazione e gli effetti sulle immagini -->
+     <script src= "script.js"></script>
+     <script src= "popup.js"></script>
+ </body>
+
+ </html>

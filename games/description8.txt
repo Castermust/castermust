@@ -1,0 +1,9 @@
+Requires a 64-bit processor and operating system
+OS: Windows 10/11 64-bit
+Processor: Intel Core i3-8300 / AMD Ryzen 3 2200G
+Memory: 8 GB RAM
+Graphics: 4 GB VRAM, Nvidia GeForce GTX 1050 Ti / AMD Radeon RX 580
+DirectX: Version 12
+Storage: 52 GB available space
+Additional Notes: 30 FPS in 1920×1080 with the “Low” preset
+Screenshot

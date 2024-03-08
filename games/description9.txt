@@ -1,0 +1,20 @@
+Minimum:
+
+Requires a 64-bit processor and operating system
+OS: Windows 10 64-bit
+Processor: Intel Core i5 6600k or AMD Ryzen 5 1600
+Memory: 8 GB RAM
+Graphics: NVIDIA GeForce GTX 1050 Ti or AMD Radeon RX 570
+DirectX: Version 12
+Network: Broadband Internet connection
+Storage: 100 GB available space
+Recommended:
+
+Requires a 64-bit processor and operating system
+OS: Windows 10 64-bit
+Processor: Intel Core i7 6700 or AMD Ryzen 7 2700X
+Memory: 12 GB RAM
+Graphics: NVIDIA GeForce GTX 1660 or AMD Radeon RX 5600 XT
+DirectX: Version 12
+Network: Broadband Internet connection
+Storage: 100 GB available space

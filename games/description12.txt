@@ -1,0 +1,8 @@
+System Requirements
+Requires a 64-bit processor and operating system
+OS: Windows 10 64-bit
+Processor: Intel Core i3-4160, 3.6 GHz or AMD equivalent
+Memory: 8 GB RAM
+Graphics: NVIDIA GTX 950 or AMD Radeon RX 470
+DirectX: Version 12
+Storage: 75 GB available space
